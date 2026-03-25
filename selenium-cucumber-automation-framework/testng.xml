@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-current.dtd">
+<suite name="Selenium Cucumber Automation Test Suite" verbose="2" thread-count="1" parallel="none">
+
+    <test name="Sauce Demo Test Suite">
+        <classes>
+            <class name="runners.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
