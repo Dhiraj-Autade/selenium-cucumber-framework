@@ -28,9 +28,11 @@ jobs:
           maven-${{ runner.os }}
 
     - name: Build Project
+      working-directory: selenium-cucumber-framework
       run: mvn clean install -DskipTests
 
     - name: Run Tests
+      working-directory: selenium-cucumber-framework
       run: mvn test
 
     - name: Upload Test Reports
